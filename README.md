@@ -45,7 +45,6 @@
 ### Requirements
 
 - Python 3.x
-- Dependencies listed in `requirements.txt`
 
 ### Setup
 
