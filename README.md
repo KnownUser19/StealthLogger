@@ -54,11 +54,6 @@ Clone this repository:
 ```bash
 git clone https://github.com/yourusername/KeyLogger.git
 
-**### Run the keylogger:**
-
-```bash
-python keylogger.py
-
 ## **Security & Privacy**
 We prioritize ethical use and privacy. This tool is intended solely for authorized monitoring and data analysis tasks in controlled environments.
 
