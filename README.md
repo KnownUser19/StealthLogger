@@ -49,7 +49,7 @@
 
 ### Setup
 
-####**Clone this repository:**
+**Clone this repository:**
 
 git clone https://github.com/yourusername/KeyLogger.git
 
@@ -57,7 +57,7 @@ git clone https://github.com/yourusername/KeyLogger.git
 ## **Security & Privacy**
 We prioritize ethical use and privacy. This tool is intended solely for authorized monitoring and data analysis tasks in controlled environments.
 
-**## Disclaimer**
+****Disclaimer****
 **Warning**: This tool should only be used with permission and within legal boundaries. Misuse may result in legal consequences.
 
 
