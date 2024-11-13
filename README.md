@@ -49,9 +49,8 @@
 
 ### Setup
 
-Clone this repository:
+####**Clone this repository:**
 
-```bash
 git clone https://github.com/yourusername/KeyLogger.git
 
 
