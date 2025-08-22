@@ -52,11 +52,24 @@
 
 git clone https://github.com/KnownUser19/StealthLogger/blob/main/README.md
 
+## Professional Skills & Symbols
+
+- 🛠️ **Cross-Platform Development**  
+- ⚙️ **System Programming & Automation**  
+- 🔒 **Cybersecurity & Encryption**  
+- 🌐 **Network Programming & Remote Access**  
+- 📑 **Data Logging & Forensics**  
+- 🎛️ **Audio & Image Processing**  
+- ⏰ **Event Scheduling & Smart Triggering**  
+- 🔐 **Secure Software Lifecycle**  
+- 📊 **Analytical Reporting & Visualization**  
+- 🐍 **Python Scripting & Multi-Threading**  
+ 
+
 
 ## **Security & Privacy**
 We prioritize ethical use and privacy. This tool is intended solely for authorized monitoring and data analysis tasks in controlled environments.
 
 ****Disclaimer****
 **Warning**: This tool should only be used with permission and within legal boundaries. Misuse may result in legal consequences.
-
 
