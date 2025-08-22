@@ -52,7 +52,7 @@
 
 git clone https://github.com/KnownUser19/StealthLogger/blob/main/README.md
 
-## Professional Skills & Symbols
+## Professional Skills 
 
 - 🛠️ **Cross-Platform Development**  
 - ⚙️ **System Programming & Automation**  
