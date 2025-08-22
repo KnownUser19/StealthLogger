@@ -1,4 +1,6 @@
-**StealthLogger**
+
+# StealthLogger
+
 **A comprehensive, high-performance logging tool for real-time activity tracking across platforms with a focus on security and privacy.**  
 
 
